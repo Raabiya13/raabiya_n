@@ -387,11 +387,11 @@ hr{
 #conE h2{
     color:#430a0a ;
     text-shadow:
-        0 0 5px rgba(67, 10, 10,0.7),
+        /* 0 0 5px rgba(67, 10, 10,0.7),
         0 0 10px rgba(67, 10, 10,0.5),
         0 0 20px rgba(67, 10, 10,0.3),
         0 0 30px rgba(67, 10, 10,0.2),
-        0 0 40px rgba(67, 10, 10,0.1);  
+        0 0 40px rgba(67, 10, 10,0.1);   */
 }
 
 .head{
@@ -789,7 +789,7 @@ aside h1{
 
 
 #completeContact{
-    height: 70vh;
+    height: 90vh;
     width: 70vw;
     background-color: #430a0a;
     box-shadow: 0px 5px 8px 5px #4e2323;
@@ -1138,7 +1138,7 @@ form button:hover{
     font-size: 3vw;
   }
   #conE .Schl h2{
-    font-size: 3vw;
+    font-size: 2vw;
   }
   .UG img, .Schl img {
     display: none;
