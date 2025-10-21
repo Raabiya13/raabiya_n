@@ -121,7 +121,7 @@ nav h1{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 0 2vw;
+    padding: 0 3vw;
     margin-top: 40px;
     
 }
@@ -1319,5 +1319,110 @@ form button:hover{
     padding: 0 10px;
    
 }} 
+
+
+@media screen and (min-width: 800px) and (max-width: 1135px) {
+  #page5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+  }
+
+  #completeContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #fff; */
+    width: 90vw;
+    height: auto;
+    padding: 20px;
+    
+  }
+
+  #completeContact .left-side,
+  #completeContact .right-side {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+
+ 
+
+  #conE .UG h2{
+    font-size: 1.8vw;
+  }
+  #conE .Schl h2{
+    font-size: 1.8vw;
+  }
+
+  #conE .UG, .Schl {
+   
+    font-size: 1.5vw;
+  }
+
+  .UG img, .Schl img {
+    display: block;
+    height: 150px;
+  }
+
+  #edu-container .vl {
+  
+    display: block;
+    width: 3px;
+  }
+
+  #edu-container .conE1{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 100%;
+  }
+
+  #edu-container .conE1 .Exp1, .Exp2{
+    font-size: 1.3vw;
+  }
+
+  #bg-shape{
+    overflow: hidden;
+    position: absolute;
+    width: 40vw;
+    height: 30vw;
+    right: 0;
+    top: 40vh;
+
+}
+
+.vl {
+  border-left: 2px solid #430a0a;
+  height: 300px;
+  margin-bottom: -40px;
+}
+
+.dot{
+    margin-bottom: -2px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #430a0a;
+    display: inline-block;
+    
+}
+
+.sdot{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #efeae3;
+}
+
+}
+
 
 
